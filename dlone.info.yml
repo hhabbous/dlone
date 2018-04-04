@@ -1,0 +1,75 @@
+name: Dlone
+type: profile
+description: 'A fast and feature-rich Drupal distribution.'
+core: 8.x
+version: VERSION
+distribution:
+  name: Dlone
+dependencies:
+  # Core modules.
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+
+  # Contrib modules
+  - admin_toolbar
+  - admin_toolbar_tools
+  - easy_breadcrumb
+  - metatag
+  - simple_sitemap
+  - field_group
+  - redirect
+  - devel
+  - devel_generate
+  - module_filter
+  - refreshless
+  - twig_tweak
+  - eu_cookie_compliance
+  - pathauto
+  - colorbutton
+  - ckeditor_font
+  - menu_link_attributes
+  - link_attributes
+  - editor_advanced_link
+  - mailsystem
+  - swiftmailer
+  - honeypot
+  - rename_admin_paths
+  - recaptcha
+
+themes:
+  # Core themes.
+  - bartik
+  - seven

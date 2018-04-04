@@ -1,0 +1,43 @@
+{
+  "name": "hhabbous/dlone",
+  "description": "A fast and feature-rich Drupal distribution.",
+  "type": "drupal-profile",
+  "authors": [
+    {
+      "name": "Hatim HABBOUS",
+      "email": "hatim.habbous@orange.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/admin_toolbar": "^1.23",
+    "drupal/easy_breadcrumb": "^1.6",
+    "drupal/metatag": "^1.5",
+    "drupal/simple_sitemap": "^2.11",
+    "drupal/field_group": "^1.0",
+    "drupal/redirect": "^1.1",
+    "drupal/devel": "^1.2",
+    "drupal/module_filter": "^3.1",
+    "drupal/twig_tweak": "^1.9",
+    "drupal/eu_cookie_compliance": "^1.0",
+    "drupal/pathauto": "^1.1",
+    "drupal/colorbutton": "^1.1",
+    "drupal/ckeditor_font": "^1.0",
+    "drupal/link_attributes": "^1.2",
+    "drupal/menu_link_attributes": "^1.0",
+    "drupal/editor_advanced_link": "^1.4",
+    "drupal/mailsystem": "^4.1",
+    "drupal/recaptcha": "^2.3",
+    "drupal/honeypot": "^1.27",
+    "drupal/rename_admin_paths": "^1.1",
+    "drupal/swiftmailer": "^1.0@beta",
+    "drupal/refreshless": "^1.0@alpha"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
